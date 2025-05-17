@@ -13,4 +13,8 @@
 9. Now the changes in the data is made.(if we commit and push using the dvc the data.dvc file make the change the mdr id and after the push s3 get two more entries )
 10.dvc commit and dvc push.
 11. Now again adding the new data into the file.
-
+      METHORD TO ROLL BACK TO THE PREVIOUS data
+     1. use git log --oneline(this help to get the shaw value )
+     2. To roll back to that data git checkout<shaw id> 
+     this will git the original code but to get the original data or the dat related to that push use
+     3. dvc pull
