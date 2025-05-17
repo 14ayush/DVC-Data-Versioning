@@ -1,0 +1,3 @@
+Firest create the mycode.py name file add the csv data into it.
+Now install the DVC into the terminal using (pip install DVC)
+Now Initilize the DVC using DVC init 
