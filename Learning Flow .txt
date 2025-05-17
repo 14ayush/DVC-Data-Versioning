@@ -8,4 +8,4 @@ Now adding the path of the data same like git (command dvc add data/){
     "git rm-r --cached 'file name' " after that also commit it 
 
 }now again the same the command (dvc add data/ )
-
+after adding the data make it commit and push
