@@ -1,3 +1,11 @@
 Firest create the mycode.py name file add the csv data into it.
 Now install the DVC into the terminal using (pip install DVC)
-Now Initilize the DVC using DVC init 
+Now Initilize the DVC using DVC init.
+After that making the local s3 bucket or say local folder to store the data versions in that folder.(mkdir name of directory )
+Now initilizing the remote path (dvc remote add -d myremote s3)
+Now adding the path of the data same like git (command dvc add data/){
+    but this will give us error it say that the file is already tracked by the git so we need to distrack the file using the command 
+    "git rm-r --cached 'file name' " after that also commit it 
+
+}now again the same the command (dvc add data/ )
+
