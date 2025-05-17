@@ -7,6 +7,10 @@ data={'Name':['Ayush','Abhinav','Akash','Akshay','Jonny','Mayank'],
       'City':['Meerut','Noida','Delhi','Issar','Punjab','Lucknow']}
 df=pd.DataFrame(data)
 
+# adding the new row into the data
+new_row={'Name':'Sanu','Age':'22','City':'Mumbai'}
+df.loc[len(df.index)]=new_row
+
 data_dir='data'
 os.makedirs(data_dir,exist_ok=True)
 file_path=os.path.join(data_dir,'Sample.csv')

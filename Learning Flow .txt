@@ -1,11 +1,14 @@
-Firest create the mycode.py name file add the csv data into it.
-Now install the DVC into the terminal using (pip install DVC)
-Now Initilize the DVC using DVC init.
-After that making the local s3 bucket or say local folder to store the data versions in that folder.(mkdir name of directory )
-Now initilizing the remote path (dvc remote add -d myremote s3)
-Now adding the path of the data same like git (command dvc add data/){
+1.Firest create the mycode.py name file add the csv data into it.
+2.Now install the DVC into the terminal using (pip install DVC)
+3.Now Initilize the DVC using DVC init.
+4.After that making the local s3 bucket or say local folder to store the data versions in that folder.(mkdir name of directory )
+5.Now initilizing the remote path (dvc remote add -d myremote s3)
+6.Now adding the path of the data same like git (command dvc add data/){
     but this will give us error it say that the file is already tracked by the git so we need to distrack the file using the command 
     "git rm-r --cached 'file name' " after that also commit it 
 
 }now again the same the command (dvc add data/ )
-after adding the data make it commit and push
+7.after adding the data make it commit and push.
+8.Now make the change in the mycode.py file and make some change in the data and then apply the data versioning in it 
+9. Now the changes in the data is made.(if we commit and push using the dvc the data.dvc file make the change the mdr id and after the push s3 get two more entries )
+10.dvc commit
