@@ -11,4 +11,6 @@
 7.after adding the data make it commit and push.
 8.Now make the change in the mycode.py file and make some change in the data and then apply the data versioning in it 
 9. Now the changes in the data is made.(if we commit and push using the dvc the data.dvc file make the change the mdr id and after the push s3 get two more entries )
-10.dvc commit
+10.dvc commit and dvc push.
+11. Now again adding the new data into the file.
+
